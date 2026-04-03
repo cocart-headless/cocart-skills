@@ -1,4 +1,4 @@
-# CoCart API — Claude Code Plugin
+# CoCart — Claude Code Plugin
 
 Official [Claude Code](https://claude.ai/code) plugin for [CoCart](https://cocartapi.com) — the headless WooCommerce REST API.
 
@@ -22,19 +22,29 @@ Install the CoCart SDK and show me how to list products and handle auth. use CoC
 
 Claude will automatically apply the correct SDK, adapter, and patterns for your framework.
 
+You can also invoke skills directly:
+
+| Command | Description |
+|---|---|
+| `/cocart:setup` | Main CoCart API setup and integration guidance |
+| `/cocart:js` | TypeScript / JavaScript SDK patterns |
+| `/cocart:go` | Go SDK patterns |
+| `/cocart:php` | PHP SDK patterns |
+| `/cocart:python` | Python SDK patterns |
+
 ## Install
 
 ### Option 1 — From the Anthropic Marketplace
 
 ```
-/plugin install cocart-api
+/plugin install cocart
 ```
 
 ### Option 2 — From this GitHub repo directly
 
 ```
 /plugin marketplace add cocart-headless/claude-plugin
-/plugin install cocart-api@cocart-headless
+/plugin install cocart@cocart-headless
 ```
 
 ## What It Covers
