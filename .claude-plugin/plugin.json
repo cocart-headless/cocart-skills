@@ -1,0 +1,13 @@
+{
+  "name": "cocart",
+  "version": "1.0.0",
+  "description": "CoCart SDK setup and integration guidance for headless WooCommerce. Add 'use CoCart API' to any prompt to get the correct SDK install, adapter config, and code patterns for your framework.",
+  "author": {
+    "name": "CoCart Headless, LLC",
+    "email": "support@cocartapi.com",
+    "url": "https://cocartapi.com"
+  },
+  "homepage": "https://github.com/cocart-headless/claude-plugin",
+  "license": "MIT",
+  "keywords": ["cocart", "woocommerce", "headless", "ecommerce", "rest-api", "sdk"]
+}
