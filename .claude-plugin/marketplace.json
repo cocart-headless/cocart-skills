@@ -1,0 +1,26 @@
+{
+  "name": "cocart-headless",
+  "owner": {
+    "name": "CoCart Headless, LLC",
+    "email": "support@cocartapi.com"
+  },
+  "metadata": {
+    "description": "Official CoCart skills for AI coding agents. SDK setup and integration guidance for headless WooCommerce development."
+  },
+  "plugins": [
+    {
+      "name": "cocart",
+      "source": ".",
+      "description": "CoCart SDK setup and integration guidance for headless WooCommerce. Add 'use CoCart API' to any prompt to get the correct SDK install, adapter config, and code patterns for your framework.",
+      "version": "1.0.0",
+      "author": {
+        "name": "CoCart Headless, LLC"
+      },
+      "homepage": "https://cocartapi.com",
+      "repository": "https://github.com/cocart-headless/cocart-skills",
+      "license": "MIT",
+      "keywords": ["cocart", "woocommerce", "headless", "ecommerce", "rest-api", "sdk", "typescript", "go", "php", "python", "flutter", "swift"],
+      "category": "integrations"
+    }
+  ]
+}

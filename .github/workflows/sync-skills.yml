@@ -1,0 +1,101 @@
+name: Sync Skills
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'skills/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync skills/ to .agents/skills/
+        run: |
+          changed=false
+
+          for dir in skills/*/; do
+            skill=$(basename "$dir")
+
+            # Create destination directory if needed
+            mkdir -p ".agents/skills/$skill"
+
+            # Sync SKILL.md
+            src="$dir/SKILL.md"
+            dest=".agents/skills/$skill/SKILL.md"
+            if [ -f "$src" ]; then
+              if ! cmp -s "$src" "$dest" 2>/dev/null; then
+                cp "$src" "$dest"
+                echo "Synced: $skill/SKILL.md"
+                changed=true
+              fi
+            fi
+
+            # Sync references/ directory
+            if [ -d "$dir/references" ]; then
+              mkdir -p ".agents/skills/$skill/references"
+              for ref in "$dir"/references/*.md; do
+                [ -f "$ref" ] || continue
+                ref_name=$(basename "$ref")
+                ref_dest=".agents/skills/$skill/references/$ref_name"
+                if ! cmp -s "$ref" "$ref_dest" 2>/dev/null; then
+                  cp "$ref" "$ref_dest"
+                  echo "Synced: $skill/references/$ref_name"
+                  changed=true
+                fi
+              done
+
+              # Remove references that no longer exist in source
+              for ref_dest in ".agents/skills/$skill/references"/*.md; do
+                [ -f "$ref_dest" ] || continue
+                ref_name=$(basename "$ref_dest")
+                if [ ! -f "$dir/references/$ref_name" ]; then
+                  rm "$ref_dest"
+                  echo "Removed: $skill/references/$ref_name"
+                  changed=true
+                fi
+              done
+            else
+              # Remove references dir from dest if source no longer has one
+              if [ -d ".agents/skills/$skill/references" ]; then
+                rm -rf ".agents/skills/$skill/references"
+                echo "Removed: $skill/references/"
+                changed=true
+              fi
+            fi
+          done
+
+          # Remove skills from .agents/ that no longer exist in skills/
+          if [ -d ".agents/skills" ]; then
+            for dest_dir in .agents/skills/*/; do
+              skill=$(basename "$dest_dir")
+              if [ ! -d "skills/$skill" ]; then
+                rm -rf "$dest_dir"
+                echo "Removed: $skill"
+                changed=true
+              fi
+            done
+          fi
+
+          if [ "$changed" = false ]; then
+            echo "All skills already in sync."
+          fi
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .agents/skills/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "Sync skills/ to .agents/skills/ [skip ci]"
+            git push
+          fi

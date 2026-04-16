@@ -1,16 +1,16 @@
 # Privacy Policy
 
-**CoCart API — Claude Code Plugin**  
+**CoCart API — Skills Plugin**
 
-Last updated: April 4, 2025
+Last updated: April 16th, 2026
 
 ## Overview
 
-The CoCart API plugin for Claude Code is a skill-based plugin that provides SDK installation guidance, code patterns, and documentation references for the CoCart REST API. It does not collect, transmit, store, or process any personal data.
+CoCart Skills is a skill-based plugin that provides SDK installation guidance, code patterns, and documentation references for the CoCart REST API. It does not collect, transmit, store, or process any personal data.
 
-## What the plugin does
+## What it does
 
-When activated via the `use CoCart API` trigger phrase, the plugin supplies Claude Code with pre-written documentation and code examples from CoCart's official SDKs. All content is static — no network requests are made by the plugin itself, no data leaves your machine, and no information about you or your project is sent to CoCart or any third party.
+When activated via the `use CoCart API` trigger phrase, the plugin supplies your AI coding agent with pre-written documentation and code examples from CoCart's official SDKs. All content is static — no network requests are made by the plugin itself, no data leaves your machine, and no information about you or your project is sent to CoCart or any third party.
 
 ## Data collection
 
@@ -31,9 +31,9 @@ The plugin references links to external documentation hosted at:
 
 Following these links is subject to the respective privacy policies of those services. Visiting them is optional and not required for the plugin to function.
 
-## Claude Code platform
+## Platform
 
-This plugin operates within Claude Code, developed by Anthropic. Your use of Claude Code is governed by [Anthropic's Privacy Policy](https://www.anthropic.com/legal/privacy).
+This plugin operates within AI coding agents such as Claude Code, GitHub Copilot, Gemini CLI, Cursor, OpenAI Codex, Windsurf, Cline, and other agents that support the [Agent Skills](https://agentskills.io) standard. Your use of these platforms is governed by their respective privacy policies.
 
 ## Changes to this policy
 
@@ -41,4 +41,4 @@ If this policy changes, the updated version will be published at this URL with a
 
 ## Contact
 
-For questions about this plugin, contact [support@cocartapi.com](mailto:support@cocartapi.com) or open an issue at [github.com/cocart-headless/claude-plugin](https://github.com/cocart-headless/claude-plugin).
+For questions about this plugin, contact [support@cocartapi.com](mailto:support@cocartapi.com) or open an issue at [github.com/cocart-headless/cocart-skills](https://github.com/cocart-headless/cocart-skills).
