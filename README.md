@@ -33,6 +33,7 @@ You can also invoke skills directly:
 | `/cocart:python` | Python SDK patterns |
 | `/cocart:flutter` | Flutter / Dart SDK patterns |
 | `/cocart:swift` | Swift SDK patterns (iOS, macOS, etc.) |
+| `/cocart:csp` | Generate Content-Security-Policy headers for your storefront |
 
 ## Install
 
@@ -93,6 +94,7 @@ git clone https://github.com/cocart-headless/cocart-skills.git
 - Session and encrypted localStorage setup
 - Environment variable patterns
 - Error handling
+- Content-Security-Policy header generation tailored to your framework and payment gateways
 - Links to full docs and OpenAPI spec
 
 ## Supported Platforms
