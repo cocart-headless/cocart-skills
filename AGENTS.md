@@ -13,6 +13,7 @@ This repository provides AI coding agent skills for [CoCart](https://cocartapi.c
 | `python` | Python SDK — Django, FastAPI, Flask |
 | `flutter` | Flutter / Dart SDK — iOS, Android, web, desktop |
 | `swift` | Swift SDK — iOS, macOS, watchOS, tvOS, visionOS |
+| `csp` | Content-Security-Policy generator for headless storefronts |
 
 ## Skill Locations
 
@@ -34,6 +35,7 @@ Edit these in `skills/` instead:
 - `.agents/skills/python/` — synced from `skills/python/`
 - `.agents/skills/flutter/` — synced from `skills/flutter/`
 - `.agents/skills/swift/` — synced from `skills/swift/`
+- `.agents/skills/csp/` — synced from `skills/csp/`
 
 ## Authored Skills (Safe to Edit)
 
