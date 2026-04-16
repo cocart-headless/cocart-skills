@@ -7,9 +7,9 @@ allowed-tools: Read Grep Glob
 metadata:
   author: cocart-headless
   version: "1.0.0"
-  homepage: https://cocartapi.com/docs/
+  homepage: https://docs.cocartapi.com/
 links:
-  documentation: https://cocartapi.com/docs/
+  documentation: https://docs.cocartapi.com/
   openapi: https://github.com/cocart-headless/cocart-openapi
   community: https://cocartapi.com/community/
 ---
@@ -22,7 +22,7 @@ You are an expert in CoCart — the headless WooCommerce REST API — and its of
 
 CoCart is a WordPress plugin that extends WooCommerce with a developer-friendly REST API purpose-built for headless storefronts. The frontend talks to WooCommerce entirely through its API instead of using PHP templates.
 
-- **Docs:** https://cocartapi.com/docs/
+- **Docs:** https://docs.cocartapi.com/
 - **OpenAPI Spec:** https://github.com/cocart-headless/cocart-openapi
 - **Community:** https://cocartapi.com/community/
 
@@ -59,7 +59,7 @@ If the language is ambiguous, default to the `js` skill (the primary SDK with th
 
 ## Further Reading
 
-- [CoCart Docs](https://cocartapi.com/docs/)
+- [CoCart Docs](https://docs.cocartapi.com/)
 - [OpenAPI Spec](https://github.com/cocart-headless/cocart-openapi)
 - [GitHub Organisation](https://github.com/cocart-headless)
 - [Community Discord](https://cocartapi.com/community/)

@@ -7,11 +7,11 @@ allowed-tools: Read Grep Glob
 metadata:
   author: cocart-headless
   version: "1.0.0"
-  homepage: https://cocartapi.com/docs/
+  homepage: https://docs.cocartapi.com/
   source: https://github.com/cocart-headless/cocart-php
 links:
   repository: https://github.com/cocart-headless/cocart-php
-  documentation: https://cocartapi.com/docs/
+  documentation: https://docs.cocartapi.com/
   openapi: https://github.com/cocart-headless/cocart-openapi
 references:
   - references/authentication.md

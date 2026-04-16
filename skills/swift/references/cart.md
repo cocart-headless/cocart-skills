@@ -150,5 +150,5 @@ let client = CoCart(
 ## Further Reading
 
 - [SDK Repository](https://github.com/cocart-headless/cocart-swift-sdk)
-- [CoCart Docs](https://cocartapi.com/docs/)
+- [CoCart Docs](https://docs.cocartapi.com/)
 - [OpenAPI Spec](https://github.com/cocart-headless/cocart-openapi)

@@ -41,7 +41,7 @@ All skills in `skills/` are locally authored and safe to edit directly.
 
 ## Links
 
-- [CoCart Docs](https://cocartapi.com/docs/)
+- [CoCart Docs](https://docs.cocartapi.com/)
 - [OpenAPI Spec](https://github.com/cocart-headless/cocart-openapi)
 - [GitHub Organisation](https://github.com/cocart-headless)
 - [Community Discord](https://cocartapi.com/community/)
