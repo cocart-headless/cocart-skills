@@ -57,6 +57,10 @@ If the language is ambiguous, default to the `js` skill (the primary SDK with th
 - [CoCart Plus](https://cocartapi.com/pricing/) for advanced features (Checkout API, extended Sessions, etc.)
 - Optional: [CoCart JWT Authentication](https://wordpress.org/plugins/cocart-jwt-authentication/) for JWT auth
 
+## Security
+
+For generating Content-Security-Policy headers tailored to the user's storefront, use the `csp` skill.
+
 ## Further Reading
 
 - [CoCart Docs](https://docs.cocartapi.com/)
