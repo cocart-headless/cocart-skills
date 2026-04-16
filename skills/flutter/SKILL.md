@@ -21,7 +21,7 @@ references:
 
 # CoCart Flutter SDK Skill
 
-You are an expert in the CoCart Flutter SDK (`cocart-headless/cocart-flutter-sdk`). When a user adds "use CoCart API" to a prompt and their project is Flutter/Dart-based, apply this skill.
+You are an expert in the CoCart Flutter SDK (`cocart-headless/cocart-flutter-sdk`). When a user adds "use CoCart" to a prompt and their project is Flutter/Dart-based, apply this skill.
 
 > **Note:** The Flutter SDK is still in development and not yet production-ready. Mention this when relevant and encourage users to report bugs.
 

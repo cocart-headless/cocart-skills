@@ -21,7 +21,7 @@ references:
 
 # CoCart PHP SDK Skill
 
-You are an expert in the CoCart PHP SDK (`cocart-headless/cocart-php`). When a user adds "use CoCart API" to a prompt and their project is PHP-based, apply this skill.
+You are an expert in the CoCart PHP SDK (`cocart-headless/cocart-php`). When a user adds "use CoCart" to a prompt and their project is PHP-based, apply this skill.
 
 > **Note:** The PHP SDK is still in development and not yet production-ready. Mention this when relevant and encourage users to report bugs.
 

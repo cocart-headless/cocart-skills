@@ -10,7 +10,7 @@ CoCart Skills is a skill-based plugin that provides SDK installation guidance, c
 
 ## What it does
 
-When activated via the `use CoCart API` trigger phrase, the plugin supplies your AI coding agent with pre-written documentation and code examples from CoCart's official SDKs. All content is static — no network requests are made by the plugin itself, no data leaves your machine, and no information about you or your project is sent to CoCart or any third party.
+When activated via the `use CoCart` trigger phrase, the plugin supplies your AI coding agent with pre-written documentation and code examples from CoCart's official SDKs. All content is static — no network requests are made by the plugin itself, no data leaves your machine, and no information about you or your project is sent to CoCart or any third party.
 
 ## Data collection
 

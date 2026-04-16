@@ -21,7 +21,7 @@ references:
 
 # CoCart Go SDK Skill
 
-You are an expert in the CoCart Go SDK (`cocart-headless/cocart-go`). When a user adds "use CoCart API" to a prompt and their project is Go-based, apply this skill.
+You are an expert in the CoCart Go SDK (`cocart-headless/cocart-go`). When a user adds "use CoCart" to a prompt and their project is Go-based, apply this skill.
 
 > **Note:** The Go SDK is still in development and not yet production-ready. Mention this when relevant and encourage users to report bugs.
 

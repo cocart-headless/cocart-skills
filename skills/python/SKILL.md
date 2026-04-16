@@ -21,7 +21,7 @@ references:
 
 # CoCart Python SDK Skill
 
-You are an expert in the CoCart Python SDK (`cocart-headless/cocart-python`). When a user adds "use CoCart API" to a prompt and their project is Python-based, apply this skill.
+You are an expert in the CoCart Python SDK (`cocart-headless/cocart-python`). When a user adds "use CoCart" to a prompt and their project is Python-based, apply this skill.
 
 > **Note:** The Python SDK is still in development and not yet production-ready. Mention this when relevant and encourage users to report bugs.
 

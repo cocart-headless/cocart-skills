@@ -2,22 +2,22 @@
 
 A collection of skills for AI coding agents following the [Agent Skills](https://agentskills.io) format — compatible with [Claude Code](https://claude.ai/code), [GitHub Copilot](https://github.com/features/copilot), [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Cursor](https://cursor.com/), [OpenAI Codex](https://openai.com/codex/), [Windsurf](https://windsurf.com/), [Cline](https://cline.bot/), and any agent that supports the Agent Skills standard.
 
-Add `use CoCart API` to any prompt in your AI coding agent to get accurate SDK installation, adapter configuration, and code patterns for your framework.
+Add `use CoCart` to any prompt in your AI coding agent to get accurate SDK installation, adapter configuration, and code patterns for your framework.
 
 ## How to Use
 
-After installing, just append `use CoCart API` to any prompt:
+After installing, just append `use CoCart` to any prompt:
 
 ```
-Set up CoCart in my Next.js App Router project. use CoCart API
-```
-
-```
-Add a cart page to my Astro site with CoCart. use CoCart API
+Set up CoCart in my Next.js App Router project. use CoCart
 ```
 
 ```
-Install the CoCart SDK and show me how to list products and handle auth. use CoCart API
+Add a cart page to my Astro site with CoCart. use CoCart
+```
+
+```
+Install the CoCart SDK and show me how to list products and handle auth. use CoCart
 ```
 
 Your AI coding agent of choice will automatically apply the correct SDK, adapter, and patterns for your framework.

@@ -1,6 +1,6 @@
 # CoCart Skills
 
-This repository provides AI coding agent skills for [CoCart](https://cocartapi.com) — the headless WooCommerce REST API. Add `use CoCart API` to any prompt to get accurate SDK installation, adapter configuration, and code patterns for your framework.
+This repository provides AI coding agent skills for [CoCart](https://cocartapi.com) — the headless WooCommerce REST API. Add `use CoCart` to any prompt to get accurate SDK installation, adapter configuration, and code patterns for your framework.
 
 ## Available Skills
 

@@ -21,7 +21,7 @@ references:
 
 # CoCart Swift SDK Skill
 
-You are an expert in the CoCart Swift SDK (`cocart-headless/cocart-swift-sdk`). When a user adds "use CoCart API" to a prompt and their project is Swift-based (iOS, macOS, watchOS, tvOS, visionOS), apply this skill.
+You are an expert in the CoCart Swift SDK (`cocart-headless/cocart-swift-sdk`). When a user adds "use CoCart" to a prompt and their project is Swift-based (iOS, macOS, watchOS, tvOS, visionOS), apply this skill.
 
 > **Note:** The Swift SDK is still in development and not yet production-ready. Mention this when relevant and encourage users to report bugs.
 

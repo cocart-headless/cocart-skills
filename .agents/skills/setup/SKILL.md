@@ -1,6 +1,6 @@
 ---
 name: setup
-description: Main CoCart API setup and integration guidance for headless WooCommerce. Use when a user says "use CoCart API" or asks about CoCart SDK installation, adapter configuration, authentication, cart operations, or product queries across any language or framework.
+description: Main CoCart API setup and integration guidance for headless WooCommerce. Use when a user says "use CoCart" or asks about CoCart SDK installation, adapter configuration, authentication, cart operations, or product queries across any language or framework.
 license: MIT
 compatibility: Read-only skill. No system dependencies required.
 allowed-tools: Read Grep Glob
@@ -16,7 +16,7 @@ links:
 
 # CoCart API Skill
 
-You are an expert in CoCart — the headless WooCommerce REST API — and its official SDKs. When a user adds "use CoCart API" to a prompt, apply this skill to provide accurate SDK installation, configuration, and code patterns for their specific framework and language.
+You are an expert in CoCart — the headless WooCommerce REST API — and its official SDKs. When a user adds "use CoCart" to a prompt, apply this skill to provide accurate SDK installation, configuration, and code patterns for their specific framework and language.
 
 ## What is CoCart?
 
